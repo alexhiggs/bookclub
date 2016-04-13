@@ -1,0 +1,132 @@
+html, body {
+
+
+
+margin:0;
+
+padding:0;
+
+
+
+}
+h2 {
+	color:white;
+}
+.header{
+   background: url(images/darklandscape.jpg) no-repeat top center fixed;
+   background-size: cover;
+   height: 500px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   }
+   
+   .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
+
+.box {
+   
+    margin-bottom: 5em;
+    display: block;
+    width: 200px;
+    height: 200x;
+    background-color: #FFF;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box:hover {
+	margin-bottom: 2em;
+	padding: 1em;
+    background-color: #FFCCCC;
+    width: 400px;
+    height: 200px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 2px 2px #FFCCCC;
+}
+
+.down {
+	-webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg); 
+-o-transform:rotate(-180deg); 
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.leftHalf {
+   background: url(images/windowwall.jpg);
+   width: 25%;
+   
+   position: absolute;
+   left: 0px;
+   height: 100%;
+}
+.right {
+	padding: 1em;
+	width: 50%;
+	top: 100px;
+	background-color: #000;
+	 opacity: 0.7;
+	 margin-right: 2em;
+   position: absolute;
+   right: 0px;
+   height: 50%;
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.cornerText { 
+	padding: 1em;
+   position: absolute;
+   background-color: #ffffff; 
+   opacity: 0.4;
+   top: 50px; 
+   left: 0; 
+   width: 25%; 
+}
+.secret {
+	text-align: center;
+	color: white;
+	text-transform: lowercase;
+	font-size: larger;
+	
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.footer {
+  position: inherit;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: #efefef;
+  text-align: center;
+}
